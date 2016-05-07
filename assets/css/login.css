@@ -1,0 +1,99 @@
+/*Functions*/
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding: 0;
+  background: url(../img/background.png) repeat #ddd;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #555;
+  opacity: 0;
+  margin-left: -20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.navbar-title {
+  background: #00468C;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-title h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0px;
+}
+
+/*login form*/
+#login {
+  margin: 0px auto 20px;
+  padding: 100px 20px;
+  max-width: 450px;
+}
+#login form {
+  border: 1px solid #000;
+  background: #333;
+  padding: 40px 30px;
+}
+#login form h2 {
+  margin: 20px 0 50px 0;
+  padding-top: 10px;
+  border-top: 1px solid #555;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+}
+#login img{
+  text-align: center;
+  margin: 0 auto !important;
+}
+#login form input{
+  height: 45px;
+}
+#login input.signin {
+  float: left;
+  background: #2083d6;
+  border-radius: 50px;
+  padding: 6px 25px;
+  border:none;
+  margin-left: -15px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+#login .input. {
+  text-decoration: none;
+}
+#login form .col-md-12 {
+  padding: 0px;
+  margin: 0px;
+}
+#login form a.cont {
+  text-decoration: none;
+  color: #666;
+  margin-top: 20px;
+  display: inline-block;
+}
+#login form a{
+  color: #ccc;
+}
+.msgerror p{
+  color: #999;
+}
