@@ -6,16 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'TwitterOAuth\\Api' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/Api.php',
-    'TwitterOAuth\\OAuth\\Consumer' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Consumer.php',
-    'TwitterOAuth\\OAuth\\DataStore' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/DataStore.php',
-    'TwitterOAuth\\OAuth\\Exception' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Exception.php',
-    'TwitterOAuth\\OAuth\\Request' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Request.php',
-    'TwitterOAuth\\OAuth\\Server' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Server.php',
-    'TwitterOAuth\\OAuth\\SignatureMethod\\HMACSHA1' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/HMACSHA1.php',
-    'TwitterOAuth\\OAuth\\SignatureMethod\\PLAINTEXT' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/PLAINTEXT.php',
-    'TwitterOAuth\\OAuth\\SignatureMethod\\RSASHA1' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/RSASHA1.php',
-    'TwitterOAuth\\OAuth\\SignatureMethod\\SignatureMethod' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/SignatureMethod.php',
-    'TwitterOAuth\\OAuth\\Token' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Token.php',
-    'TwitterOAuth\\OAuth\\Util' => $vendorDir . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Util.php',
 );

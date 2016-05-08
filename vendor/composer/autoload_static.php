@@ -4,27 +4,27 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9046c03938e6cc932e7b2ef3131fa9c6
+class ComposerStaticInit89c384ad1a676d58ddad3c83e8df82cb
 {
-    public static $classMap = array (
-        'TwitterOAuth\\Api' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/Api.php',
-        'TwitterOAuth\\OAuth\\Consumer' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Consumer.php',
-        'TwitterOAuth\\OAuth\\DataStore' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/DataStore.php',
-        'TwitterOAuth\\OAuth\\Exception' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Exception.php',
-        'TwitterOAuth\\OAuth\\Request' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Request.php',
-        'TwitterOAuth\\OAuth\\Server' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Server.php',
-        'TwitterOAuth\\OAuth\\SignatureMethod\\HMACSHA1' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/HMACSHA1.php',
-        'TwitterOAuth\\OAuth\\SignatureMethod\\PLAINTEXT' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/PLAINTEXT.php',
-        'TwitterOAuth\\OAuth\\SignatureMethod\\RSASHA1' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/RSASHA1.php',
-        'TwitterOAuth\\OAuth\\SignatureMethod\\SignatureMethod' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/SignatureMethod/SignatureMethod.php',
-        'TwitterOAuth\\OAuth\\Token' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Token.php',
-        'TwitterOAuth\\OAuth\\Util' => __DIR__ . '/..' . '/ruudk/twitter-oauth/src/TwitterOAuth/OAuth/Util.php',
+    public static $prefixLengthsPsr4 = array (
+        'A' => 
+        array (
+            'Abraham\\TwitterOAuth\\' => 21,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Abraham\\TwitterOAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/abraham/twitteroauth/src',
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit9046c03938e6cc932e7b2ef3131fa9c6::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit89c384ad1a676d58ddad3c83e8df82cb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit89c384ad1a676d58ddad3c83e8df82cb::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

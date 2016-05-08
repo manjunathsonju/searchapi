@@ -3,20 +3,8 @@
     <div class="cl-navblock">
         <div class="menu-space">
             <div class="content">
-                <?php $this->load->view('templates/main/sidebar-user'); ?>
-                <ul class="cl-vnavigation">
-                    <li><a href="#"><i class="fa fa-group"></i><span>All</span></a></li>
-                    <li><a href="#"><i class="fa fa-user"></i><span>High Priority SO</span></a></li>
-                    <li><a href="#"><i class="fa fa-user-times"></i><span>Unassigned SO</span></a></li>
-                    <li><a href="#"><i class="fa fa-building-o"></i><span>Build SO</span></a></li>
-                    <li><a href="#"><i class="fa fa-exchange"></i><span>Shipped SO</span></a></li>
-                    <li><a href="#"><i class="fa fa-truck"></i><span>Deliverd SO</span><span class="fa caret"></span></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" >Test1</a></li>
-                            <li><a href="#" >Test2</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <?php //$this->load->view('templates/main/sidebar-user'); ?>
+                
             </div>
         </div>
         <div class="text-right collapse-button" style="padding:7px 9px;">

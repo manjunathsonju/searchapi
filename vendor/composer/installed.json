@@ -1,39 +1,58 @@
 [
     {
-        "name": "ruudk/twitter-oauth",
-        "version": "v1.0.0",
-        "version_normalized": "1.0.0.0",
+        "name": "abraham/twitteroauth",
+        "version": "0.6.4",
+        "version_normalized": "0.6.4.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/ruudk/twitteroauth.git",
-            "reference": "44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f"
+            "url": "https://github.com/abraham/twitteroauth.git",
+            "reference": "f7dec715c6e79e6085470b8b5d4dc2727afc5186"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ruudk/twitteroauth/zipball/44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f",
-            "reference": "44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f",
+            "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/f7dec715c6e79e6085470b8b5d4dc2727afc5186",
+            "reference": "f7dec715c6e79e6085470b8b5d4dc2727afc5186",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.0"
+            "ext-curl": "*",
+            "php": ">=5.5.0"
         },
-        "time": "2012-08-07 14:11:00",
+        "require-dev": {
+            "phpmd/phpmd": "2.3.*",
+            "phpunit/phpunit": "4.8.*",
+            "squizlabs/php_codesniffer": "2.3.*"
+        },
+        "time": "2016-04-20 23:23:26",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
-            "classmap": [
-                "src"
-            ]
+            "psr-4": {
+                "Abraham\\TwitterOAuth\\": "src"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
         "authors": [
             {
-                "name": "Ruud Kamphuis",
-                "email": "ruud@1plus1media.nl",
+                "name": "Abraham Williams",
+                "email": "abraham@abrah.am",
+                "homepage": "https://abrah.am",
                 "role": "Developer"
             }
         ],
-        "description": "PHP 5.3 version of abraham/twitteroauth",
-        "homepage": "http://github.com/ruudk/twitteroauth"
+        "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
+        "homepage": "https://twitteroauth.com",
+        "keywords": [
+            "Twitter API",
+            "Twitter oAuth",
+            "api",
+            "oauth",
+            "rest",
+            "social",
+            "twitter"
+        ]
     }
 ]
