@@ -36,27 +36,7 @@ if (file_exists(APPPATH . '/modules/' . $page . '/views/' . $page . '-sidebar.ph
             <?php } ?>
             <div class="content">
                 <div class="table-responsive">
-                    <?php
-                    if ($this->session->flashdata('error')) {
-                        ?>
-                        <div class="notibar msgerror">
-                            <a class="close"></a>
-                            <p><?php echo $this->session->flashdata('error'); ?></p>
-                        </div>
-                        <?php
-                    }
-                    ?>
-
-                    <?php
-                    if ($this->session->flashdata('success')) {
-                        ?>
-                        <div class="notibar msgsuccess">
-                            <a class="close"></a>
-                            <p><?php echo $this->session->flashdata('success'); ?></p>
-                        </div>
-                        <?php
-                    }
-                    ?>
+                    
                     <?php
                     $this->load->view($main_content);
                     ?>
