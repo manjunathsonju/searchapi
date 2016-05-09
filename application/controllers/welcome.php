@@ -8,6 +8,9 @@ class Welcome extends CI_Controller {
 
     }
 
+    /**
+     * This is the action to handle the form posted values and gives geocodelocation.
+     */
     public function gecodetweets(){
 
         $address = $_POST['address'];
@@ -33,10 +36,6 @@ class Welcome extends CI_Controller {
             array('url' => 'welcome', 'name' => 'Home', 'active' => TRUE),
         );
 
-       //  foreach($arrays as $array){
-       //     echo '["'.$array['id'].'",'.$array['position'][0].','.$array['position'][1].',0],';
-       // } die();
-
     	$data = array(
             'main_content' => 'dashboard',
             'page' => 'dashboard',
@@ -51,7 +50,11 @@ class Welcome extends CI_Controller {
 
         $this->load->view('templates/main/template', $data);
     }
-
+    
+    /**
+     * This is the default 'index' action that is invoked
+     * when an action is not explicitly requested by users.
+     */
     public function index(){
         $breadcrumb = array(
             array('url' => 'welcome', 'name' => 'Geocode', 'active' => TRUE),
